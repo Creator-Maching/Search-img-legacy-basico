@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.imagemDeFundo{
+    background-image: url('../css/imagens/mecanotitã.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1{
+    text-align: center;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.filtro{
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 100px;
+}
+
+.titulo{
+    background-color: rgb(39, 195, 243);
+    padding: 30px;
+    opacity: 70%;
+    color: black;
+}
+
+button{
+    background-color: rgb(30, 115, 212);
+    color: white;
+    font-size: large;
+    list-style: none;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 270px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 20px;
+}
+img:hover {
+    opacity: 70%;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(30, 115, 212);
+    padding: 20px;
+}
+
+@media (min-width: 600px) and (max-width: 680px) {
+  .galeria {
+    grid-template-columns: 1fr 2fr; /* só 2 colunas no celular */
+  }
+  
+  .imagemDeFundo{
+    width: 500px;
+    height: 800px;
+    background-repeat: repeat-y;
+  }
+
+  .filtros {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
