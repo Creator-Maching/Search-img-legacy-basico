@@ -33,10 +33,6 @@ Abra o arquivo index.html no navegador.
 
 Use os botões de filtro ou o campo de busca para encontrar imagens.
 
-🌐 Demonstração
-
-Acesse online: Search-img-Legacy
-
 👤 Autor
 
-Creator Maching – Desenvolvedor Fullstack
+Creator Maching – Pedro Dias Mendes Vianna
